@@ -26,3 +26,20 @@ Run locally:
 
 pip install -r requirements.txt
 python main.py
+
+           Director Agent
+                |
+      -----------------------
+      |         |           |
+Supervisor  Supervisor  Supervisor
+      |         |           |
+   Worker     Worker      Worker
+
+   Example Output
+
+GET /simulate
+
+{
+ "hypothesis": "Drug X may improve survival",
+ "confidence": 0.72
+}
