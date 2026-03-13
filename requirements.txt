@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+networkx
+sentence-transformers
+faiss-cpu
+openai
+requests
+prometheus-client
+streamlit
+psutil
