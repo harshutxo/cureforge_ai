@@ -27,6 +27,14 @@ Run locally:
 pip install -r requirements.txt
 python main.py
 
+Features Implemented
+
+- Autonomous AI research agents
+- Clinical trial simulation engine
+- LLM-powered hypothesis generation
+- FastAPI server
+- Docker deployment
+-----------------------------------
            Director Agent
                 |
       -----------------------
@@ -34,7 +42,7 @@ python main.py
 Supervisor  Supervisor  Supervisor
       |         |           |
    Worker     Worker      Worker
-
+------------------------------------
    Example Output
 
 GET /simulate
